@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type= "text/css" href="app.css"/>
+	    <link rel="manifest" href="manifest.json">
+        <link rel="apple-touch-icon" href="images/meuve-icon.png">
+        <meta name="theme-color" content="#FFFFFF">
+        <title>Meuve</title>
+        <link rel="icon" type="images/png" href="images/meuve-icon.png" > 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="screen-body">
+            <div class="screen">
+                <div class="screen-display">
+                    <div class="signin-section">
+                        <div class="sign-in-text">
+                            <div class="sign-in-title h4">Let’s get started!</div>
+                            <div class="sign-in-title h1">Already have an account? <a href="signin.html" class="singin-link h1">Sign in</a></div>
+                        </div>
+                        <div class="signin-input-form"><input type="text" placeholder="Full name" id="username" required></div>
+                        <div class="signin-input-form"><input type="text" placeholder="Phone number" id="phone" required></div>
+                        <div class="signin-input-form"><input type="email" placeholder="Email" id="email" required></div>
+                        <div class="signin-input-form-group">
+                            <div class="signin-form-label h1">8 characters minimum</div>
+                            <div class="signin-input-form"><input type="password" placeholder="Password" id="password" required><img src="icons/eye.svg" class="eye" id="password-eye" alt="password-icon"></div>
+                        </div>
+                        <div class="signin-input-form"><input type="password" placeholder="Confirm password" id="confirm-password" required><img src="icons/eye.svg" class="eye" id="confirm-password-eye" alt="password-icon"></div>
+                        <button class="signin-btn h1" id="signup-btn">Register</button>
+                        <div class="or">OR</div>
+                        <div class="with-google">
+                            <img class="google-icon" src="icons/Frame.svg" alt="Google-icon">
+                            <div class="with-google-text">Sign up with Google</div>
+                        </div>
+                        <div class="terms-and-condition">By registering, you agree to our terms of service</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

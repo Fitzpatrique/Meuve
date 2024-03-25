@@ -1,0 +1,16 @@
+{
+    "name":"Meuve",
+    "short_name":"Meuve",
+    "start_url":".",
+    "background_color":"#FFF9EA",
+    "theme_color":"#FFFFFF",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"images/meuve-icon.png",
+            "sizes":"638x638",
+            "type":"image/png"
+        }
+    ]
+
+}
